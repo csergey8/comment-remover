@@ -3,17 +3,18 @@ for testing comment remover util
 */ 
 // Single Line Comment
 const greeting = name => {
-  const greetingWord = 'Hello'; /* Multiline comment */
+  const greetingWord = 'Hello'; /* \\Multiline comment// */
   const abbr = "Mr."
-  console.log(`${greetingWord} ${abbr}${name}`);// Comment ""
-  /* 'Multiline'
+  const word = 'I\'am'
+  console.log(`${greetingWord}, ${word} ${abbr}${name}`);// Comment ""
+  /* \\//'Multiline'
 
-
+  
   "Comment"
 
 
   */
-}
+} ////Comment
 
 
-greeting('Human');
+greeting('John');
