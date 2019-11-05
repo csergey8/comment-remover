@@ -11,7 +11,7 @@ const LF = 10;
 const CR = 13;
 
 if(!fileName) {
-  console.log('There is no file to format. Usage: node script filename.js');
+  console.log('There is no file to format. Usage: node script.js filename.js');
   return false;
 }
 
